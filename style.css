@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021 Vicen621
+ * Copyright © 2021 Vicen621
  * All rights reserved
  */
 
@@ -48,7 +48,6 @@ button {
     margin: auto;
     padding-top: 4%;
     padding-bottom: 4%;
-
 }
 
 .row {
@@ -196,6 +195,28 @@ input.inputbox {
     border-radius: 7px;
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 /*############## Mobile ##############*/
 
 @media screen and (max-width: 680px) {
@@ -243,6 +264,11 @@ input.inputbox {
     .col-4 {
         width: 100%;
         margin: 0;
+    }
+
+    div.mobilestack {
+        width: 50%;
+        display: block;
     }
 
     div.box {
