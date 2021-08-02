@@ -131,6 +131,7 @@ ul.topnav li.DropdownIcon {
     background: #076dff;
     background: linear-gradient(to bottom, #076dff 0%, #65a5ff 100%);
     background: -webkit-linear-gradient(to bottom, #076dff 0%, #65a5ff 100%);
+    background: -moz-linear-gradient(to bottom, #076dff 0%, #65a5ff 100%);
 }
 
 div.box {
